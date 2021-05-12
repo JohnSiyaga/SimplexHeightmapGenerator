@@ -230,8 +230,9 @@ Mat_<uchar> applyOnMask(string type1, string type2, Mat_<uchar> apply1, Mat_<uch
 
 int main(int argc, char *argv[])
 {
+	// Simplex Noise Initial Parameters
 	int size = 1028; 
-	uint32_t seed = 84024; 
+	uint32_t seed = 0; 
 	float scale = 200.0f; 
 	float amplitude = 1.0f; 
 	float lacunarity = 2.0f; 
